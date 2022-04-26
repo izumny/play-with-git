@@ -21,3 +21,5 @@ There are a few different ways to install git (from source or for Linux) but the
 ```sh
 $ git config --global user.name "User Name"
 
+I accidentally delete email address.
+```
