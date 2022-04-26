@@ -21,7 +21,7 @@ There are a few different ways to install git (from source or for Linux) but the
 ```sh
 $ git config --global user.name "User Name"
 
-$ git config --global user.email "email address info"
+$ git config --global user.email "email address information"
 ```
 
 ##### Applying color to git
