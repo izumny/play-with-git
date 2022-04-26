@@ -21,20 +21,3 @@ There are a few different ways to install git (from source or for Linux) but the
 ```sh
 $ git config --global user.name "User Name"
 
-$ git config --global user.email "email address information."
-```
-
-##### Applying color to git
-
-```sh
-$ git config --global color.ui true
-```
-
-##### Initializing a repository in an existing directory
-
-If you’re starting to track an existing project in Git, you need to go to the project’s directory and type:
-
-```sh
-$ git init
-```
-This creates a new subdirectory named .git that contains all of your necessary repository files — a Git repository skeleton. At this point, nothing in your project is tracked yet.
