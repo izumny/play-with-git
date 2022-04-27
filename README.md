@@ -34,11 +34,43 @@ $ git init
 
 ```sh
 $ git clone URL of the file in Github
+
 $ git pull           ----> up to date
+
 $ git checkout -b [branch name]   -----> create branch
    <--> $ git branch -d [branch name]  ----> delete branch
+
 $ git pill
+
 $ atom .
 ```
 
 ### Modify or fix the issues in Atom then make sure SAVE!
+
+#### Add to the stage, commit to the Local repo, then push to the GitHub
+
+```sh
+$ git status
+
+$ git add .
+
+$ git status
+
+$ git commit
+    OR
+$ git commit --fixed=HEAD   <---- when you fixed
+
+$ git push -u origin HEAD  <---- only when it's first attempt
+    OR
+$ git push   <---- later than first attempt
+```
+
+#### Go to the Github
+
+```sh
+1. Pull Request
+
+2. Make some comments
+
+3. Chose Reviewers, Assignees and Labels
+```
