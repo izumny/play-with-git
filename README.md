@@ -4,7 +4,7 @@
 # Git practice!
 
 ## About it
-> This page is for Izumi chan to practice git with me. This should give you some basic idea of how engineers perform the most common actions in Git. Kanbare!
+> This page is for Izumi chan to practice git with me. This should give you some basic idea of how engineers perform the most common actions in Git. Ganbare!
 
 
 #### What is Git
@@ -21,6 +21,24 @@ There are a few different ways to install git (from source or for Linux) but the
 ```sh
 $ git config --global user.name "User Name"
 
-I accidentally delete email address.
+$ git config --global user.name "email address"
 ```
-Hello world.
+
+##### Create LOCAL repository
+
+```sh
+$ git init
+```
+
+#### Clone the file from Github to work on
+
+```sh
+$ git clone URL of the file in Github
+$ git pull           ----> up to date
+$ git checkout -b [branch name]   -----> create branch
+   <--> $ git branch -d [branch name]  ----> delete branch
+$ git pill
+$ atom .
+```
+
+### Modify or fix the issues in Atom then make sure SAVE!
