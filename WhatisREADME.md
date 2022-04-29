@@ -34,7 +34,7 @@ ___This text is also italic and bold___
 
 [This test links to very famous fruits sandwich place in Japan](https://fruits-sand-three.com/)
 
-![image](https://www.freepik.com/free-vector/cat-icons-collection_1046690.htm#query=cat&position=3&from_view=keyword)
+![image](https://hdfreewallpaper.net/wp-content/uploads/2015/08/7041478-beautiful-cats-free-hd-wallpapers.jpg)
 
 
 -Just add a dash first and then write a text.
