@@ -30,39 +30,69 @@ $ git config --global user.name "email address"
 $ git init
 ```
 
-#### Clone the file from Github to work on
+###### Clone the file from Github
 
 ```sh
 $ git clone URL of the file in Github
+```
 
-$ git pull           ----> up to date
+###### Pulling all the data up to date
 
-$ git checkout -b [branch name]   -----> create branch
-   <--> $ git branch -d [branch name]  ----> delete branch
+```sh
+$ git pull
+```
 
-$ git pill
+###### Create the new branch
 
+```sh
+$ git checkout -b <<branch name>>
+```
+
+###### Delete the existing branch
+
+```sh
+$ git branch -d <<branch name>>
+```
+
+ ###### Up to date again
+
+```sh
+$ git pull
+```
+
+###### sync with atom
+
+```sh
 $ atom .
 ```
 
-### Modify or fix the issues in Atom then make sure SAVE!
+#### Modify or fix the issues in Atom then make sure SAVE!
 
-#### Add to the stage, commit to the Local repo, then push to the GitHub
+##### Add to the stage  
 
 ```sh
 $ git status
-
 $ git add .
-
 $ git status
+```
 
+- [x] Commit to the Local repository for the first time
+
+```sh
 $ git commit
-    OR
-$ git commit --fixed=HEAD   <---- when you fixed
+```
+- [x] If its fixed once or more
+```sh
+$ git commit --fixed=HEAD
+```
 
-$ git push -u origin HEAD  <---- only when it's first attempt
-    OR
-$ git push   <---- later than first attempt
+- [x] Push to the GitHub for first attempt with new branch
+```sh
+$ git push -u origin HEAD
+```
+- [x] Second time or more from the branch
+```sh
+$ git push  
 ```
 
 #### Go to the Github
