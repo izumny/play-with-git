@@ -1,7 +1,7 @@
 ## Overview
 
 
-# Git practice!
+# Play with git!
 
 ## About it
 > This page is for Izumi chan to practice git with me. This should give you some basic idea of how engineers perform the most common actions in Git. Ganbare!
